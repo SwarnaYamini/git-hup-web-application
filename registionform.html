@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>forms</title>
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../../../../node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center" style="height:600 ;">
+        <div>
+
+            <form class="border p-4 border-4 border-primary rounded rounded-3 mt-4">
+                <h1>register</h1>
+                <div class="mb-3">
+
+                    <label class="form-label" for="username">user name</label>
+
+                    <div>
+                        <input name="username" class="form-control">
+                        <div class="text-danger">user name reqired
+
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="password">password</label>
+                    <div>
+                        <input name="password" class="form-control" type="password">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="city">our city</label>
+                    <div>
+                        <select class="form-select" name="city">
+                            <option>select our city</option>
+                        <option>hyderabad</option>
+                        <option>nellore</option>
+                        <option>vijawada</option>
+                        <option>kadapa</option>
+                       </select>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="subscribe">subscribe</label>
+                    <div class="form-switch">
+                        <input name="subscribe" class="form-check-input" type="checkbox"><label class="form-check-label">yes</label>
+                    </div>
+                    <div class="mb-4">
+                        <label class="form-label" for="price">price range</label>
+                        <div>
+                            <input type="range" name="price" class="form-range">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary  w-100">register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<div>

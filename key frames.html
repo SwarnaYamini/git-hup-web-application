@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>key frames</title>
+    <style>
+        body {
+            overflow: hidden;
+        }
+        
+        @keyframes slidein {
+            from {
+                margin-left: 120%;
+                margin-top: 300px;
+                width: 400px;
+                height: 400px;
+            }
+            50% {
+                transform: rotate(360deg);
+                width: 600px;
+                height: 600px;
+            }
+            to {
+                margin-left: 0%;
+                margin-top: 0%;
+                width: 100px;
+                height: 100px;
+            }
+        }
+        
+        img {
+            animation-name: slidein;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        @keyframes texteffects {
+            from {
+                font-size: 120px;
+                transform: rotate(180deg);
+            }
+            to {
+                font-size: 20px;
+                transform: rotate(180deg);
+            }
+        }
+        
+        .hello1 {
+            animation-name: texteffects;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .hello2 {
+            animation-name: texteffects;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .hello3 {
+            animation-name: texteffects;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .hello4 {
+            animation-name: texteffects;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .hello5 {
+            animation-name: texteffects;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        
+        .hello6 {
+            animation-name: texteffects;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+    </style>
+</head>
+
+<body>
+
+    <img src="C:\Yamini\HTML\images\kids1.jpeg" width="100" height="100">
+    <span class="hello1">B</span>
+    <span class="hello2">0</span>
+    <span class="hello3">y</span>
+    <span class="hello4">B</span>
+    <span class="hello5">0</span>
+    <span class="hello6">y</span>
+
+</body>
+
+</html>
